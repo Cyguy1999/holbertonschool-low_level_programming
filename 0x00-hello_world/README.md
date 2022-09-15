@@ -1,1 +1,1 @@
-s is the start of using c
+This is the start of C
