@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * *main - Entry Function
- * *
- * *Return: 0 - Standard Return
- * */
+*main - Entry Function
+*
+*Return: 0 - Standard Return
+*/
 int main(void)
 {
 	char alpha;
