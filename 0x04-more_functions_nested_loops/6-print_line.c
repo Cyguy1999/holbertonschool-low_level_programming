@@ -1,25 +1,17 @@
 #include "main.h"
 /**
-*more_numbers - Entry function
-*
-*Description: prints 0-14 10x
+*print_line - entry function
+*@n: number of characters
+*Description: fucntion that draws a straight line
 *Return: 0 = Success
 */
-void more_numbers(void)
+void print_line(int n)
 {
 	int i;
-	int n;
 
-	for (n = 0; n < 10; n++)
+	for (i = 0; i < n; i++)
 	{
-		for (i = 0; i <= 14; i++)
-		{
-			if (i >= 10)
-			{
-				_putchar('i');
-			}
-			_putchar(i % 10 + '0');
-		}
-		_putchar('\n');
+		_putchar('_');
 	}
+	_putchar(10);
 }
