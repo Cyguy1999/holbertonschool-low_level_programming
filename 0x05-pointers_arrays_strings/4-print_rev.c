@@ -1,11 +1,11 @@
 #include "main.h"
 #include <string.h>
 /**
- * *print_rev - prints a string in reverse
- * *@s: variable used to store value
- * *Description: Write a function that prints a string in reverse
- * *Return: 0 = Success
- * */
+*print_rev - prints a string in reverse
+*@s: variable used to store value
+*Description: Write a function that prints a string in reverse
+*Return: 0 = Success
+*/
 void print_rev(char *s)
 {
 	int i = 0;
